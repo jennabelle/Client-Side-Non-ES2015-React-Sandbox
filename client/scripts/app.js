@@ -1,16 +1,10 @@
-var HelloWorld = React.createClass({
-  render: function() {
-    return (
-      <div>Hello World!</div>
-      )
-  }
-});
+
 
 var App = React.createClass({
   render: function() {
     return (
       <div>
-        <HelloWorld />
+        Hello, world!
       </div>
       )
   }
